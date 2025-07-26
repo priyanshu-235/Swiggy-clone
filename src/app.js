@@ -1,15 +1,13 @@
 import React from "react";
 import ReactDom from "react-dom/client"
-import Header from "./components/Header"
-import FoodOption from "./components/FoodOption";
-import GroceryOption from "./components/GroceryOption";
+import Home from "./components/Home"
+import Restaurant from "./components/Restaurant";
 function App(){
 
 return(
     <>
-    <Header></Header>
-    <FoodOption></FoodOption>
-    <GroceryOption></GroceryOption>
+    <Home></Home>
+    <Restaurant></Restaurant>
     </>
 )
 
